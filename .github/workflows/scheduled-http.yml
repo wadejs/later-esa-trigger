@@ -1,9 +1,5 @@
-name: Later scheduled HTTP
+name: Later manual HTTP fallback
 on:
-  push:
-    branches: [main]
-  schedule:
-    - cron: "1-56/5 * * * *"
   workflow_dispatch:
 permissions:
   contents: read
